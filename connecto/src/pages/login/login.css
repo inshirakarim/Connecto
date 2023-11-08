@@ -46,8 +46,12 @@
     color: rebeccapurple;
     font-weight: bold;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
  }
 
+ .left button:hover {
+  transform: scale(1.1);
+ }
 .right {
     flex: 1;
     padding: 50px;
@@ -81,4 +85,8 @@
     color: white;
     font-weight: bold;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  .right form button:hover {
+    transform: scale(1.1);
   }
