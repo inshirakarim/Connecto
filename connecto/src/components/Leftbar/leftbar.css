@@ -22,11 +22,11 @@
   display: none;
 }
 
-.container {
+.leftbar .container {
   padding: 20px;
 }
 
-.container hr {
+.leftbar .container hr {
   margin: 20px 0px;
   border: none;
   height: 0.5px;
