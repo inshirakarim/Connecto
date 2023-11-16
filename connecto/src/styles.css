@@ -1,0 +1,42 @@
+/* Define light theme */
+:root {
+    --textColor: #000;
+    --bg: white;
+    --bgSoft: #f6f3f3;
+    --textColorSoft: #555;
+    --border: lightgray;
+  }
+  
+  /* Define dark theme */
+  .dark-mode {
+    --textColor: whitesmoke;
+    --bg: #222;
+    --bgSoft: #333;
+    --textColorSoft: lightgray;
+    --border: #444;
+  }
+  
+  /* Apply light theme */
+  .App:not(.dark-mode) {
+    --textColor: var(--textColor);
+    --bg: var(--bg);
+    --bgSoft: var(--bgSoft);
+    --textColorSoft: var(--textColorSoft);
+    --border: var(--border);
+  }
+  
+  /* Apply dark theme */
+  .App.dark-mode {
+    --textColor: var(--textColor);
+    --bg: var(--bg);
+    --bgSoft: var(--bgSoft);
+    --textColorSoft: var(--textColorSoft);
+    --border: var(--border);
+  }
+  
+  /* Themed function */
+  :root {
+    --themedText: var(--textColor);
+  }
+  
+  
